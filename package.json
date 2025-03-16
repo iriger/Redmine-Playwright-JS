@@ -1,0 +1,19 @@
+{
+  "name": "task-2-v01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test":"npx playwright test",
+    "test-ui":"npx playwright test --ui",
+    "test-h":"npx playwright test --headed"
+  },
+  "keywords": ["Playwright","JS","Redmine"],
+  "author": "Iryna Germash",
+  "license": "ISC",
+  "description": "Testing Redmine site using Playwright and JS",
+  "devDependencies": {
+    "@faker-js/faker": "^9.6.0",
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  }
+}
